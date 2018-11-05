@@ -1,0 +1,20 @@
+div.caja{
+	display: inline-block;
+	height: 144px;
+	width: 120px;
+	border-radius: 10px;
+	border: 2px solid #606060;
+	margin-right: 8.5px;
+	margin-left: 8.5px;
+	font-family: Baloo;
+	font-size: 36px;
+	text-indent: 17px;
+}
+
+div:nth-child(odd){
+	background: #f7fade;
+}
+
+div:nth-child(even){
+	background: #dfedd6;
+}
